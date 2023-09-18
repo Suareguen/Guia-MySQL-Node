@@ -36,3 +36,10 @@ Para instalar la versión LTS o en caso de querer instalar una versión concreta
 ```bash
 nvm install <version de node>
 ```
+
+## Instalación MySQL
+
+```
+https://dev.mysql.com/downloads/mysql/
+```
+
