@@ -1,8 +1,6 @@
 # Guia-MySQL-Node
 
-## Instalación NodeJS
-
-### MacOS
+## Instalación NodeJSs
 
 Antes que nada por medio del siguiente comando buscamos si tenemos curl instalado:
 
