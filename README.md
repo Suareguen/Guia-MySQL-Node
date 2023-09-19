@@ -99,4 +99,26 @@ mysql  Ver 8.0.28-0ubuntu0.20.04.1 for macos11.6 on x86_64 (AMD64)
 ```
 
 
+### Inicializaciṕn
+
+para iniciar MySQL usamos el siguiente comando: 
+
+```
+mysql -u root -p
+```
+
+En caso de que no funcione usar el siguiente comando: 
+```
+sudo mysql -u root -p
+```
+
+**Opcional**: por medio de los siguientes comandos podemos crear un nuevo usuario, establecer su contraseña y darle todos los privilegios a dicho usuario.
+
+```
+
+CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
+
+GRANT ALL PRIVILEGES ON test.* TO 'user'@'localhost';
+```
+
 
