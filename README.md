@@ -129,7 +129,7 @@ Si al instalarlo no nos pide estabecer contraseña ni usuario creamos unos por m
 
 CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
 
-GRANT ALL PRIVILEGES ON test.* TO 'user'@'localhost';
+GRANT ALL PRIVILEGES ON *.* TO 'user'@'localhost';
 ```
 
 
