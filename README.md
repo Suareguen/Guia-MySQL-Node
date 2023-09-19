@@ -20,11 +20,23 @@ brew install curl
 ```bash
 sudo apt-get install curl
 ```
+
+- En windows:
+```bash
+sudo apt-get install curl
+```
+
 Una vez instalado pasamos a instalar NVM (Node Version Manager) por medio del siguiente comando:
 
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 ```
+
+Si nos da problemas con los certificados usamos el siguiente comando: 
+
+```bash
+curl -k -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+``` 
 
 Ahora pasamos a instalar Node de la siguiente manera: 
 
@@ -39,12 +51,11 @@ nvm install <version de node>
 
 ## Instalación MySQL
 
-
  ### Ubuntu
  
 Abre una terminal y actualiza el índice de paquetes:
 ```bash
-sudo apt update
+sudo apt-get update
 ```
 
 Instala el paquete de MySQL:
@@ -99,7 +110,7 @@ mysql  Ver 8.0.28-0ubuntu0.20.04.1 for macos11.6 on x86_64 (AMD64)
 ```
 
 
-### Inicializaciṕn
+### Inicialización
 
 para iniciar MySQL usamos el siguiente comando: 
 
