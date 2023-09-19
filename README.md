@@ -124,6 +124,9 @@ sudo mysql
 ```
 **NOTA**
 Si al instalarlo no nos pide estabecer contraseña ni usuario creamos unos por medio de los siguientes comandos podemos crear un nuevo usuario, establecer su contraseña y darle todos los privilegios a dicho usuario.
+Debería aparecernos una pantalla tal que así: 
+![image](https://github.com/Suareguen/Guia-MySQL-Node/assets/103899316/4a709df2-499b-4870-b083-6631cfbc8f54)
+
 Una vez dentro de mysql en nuestra terminal ponemos:
 ```
 CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
