@@ -39,7 +39,64 @@ nvm install <version de node>
 
 ## Instalación MySQL
 
+
+ ### Ubuntu
+ 
+Abre una terminal y actualiza el índice de paquetes:
+```bash
+sudo apt update
+```
+
+Instala el paquete de MySQL:
+
+```bash
+sudo apt install mysql-server
+```
+
+Inicia el servicio de MySQL:
+
+```bash
+sudo systemctl start mysql
+```
+
+
+### MacOS
+
+**Tenemos dos opciones: descargar e instalar MySQL directamente desde la página oficial o por medio de la terminal.**
+
+Para descargarlo por medio de la página seguir el siguiente enlace y las instrucciones de instalación.
+
 ```
 https://dev.mysql.com/downloads/mysql/
 ```
+Por medio de la terminal de la siguiente manera: 
+
+- Abre una terminal y actualiza el índice de paquetes:
+```bash
+brew update
+```
+
+- Instala el paquete de MySQL:
+```bash
+brew install mysql
+```
+
+- Inicia el servicio de MySQL:
+
+```bash
+brew services start mysql
+```
+- Verifica que la instalación se haya realizado correctamente:
+
+```bash
+mysql --version
+```
+
+- La salida del comando debe ser similar a la siguiente:
+
+```bash
+mysql  Ver 8.0.28-0ubuntu0.20.04.1 for macos11.6 on x86_64 (AMD64)
+```
+
+
 
