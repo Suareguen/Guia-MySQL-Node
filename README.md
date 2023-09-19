@@ -120,7 +120,7 @@ mysql -u root -p
 
 En caso de que no funcione usar el siguiente comando: 
 ```
-sudo mysql -u root -p
+sudo mysql
 ```
 **NOTA**
 Si al instalarlo no nos pide estabecer contraseña ni usuario creamos unos por medio de los siguientes comandos podemos crear un nuevo usuario, establecer su contraseña y darle todos los privilegios a dicho usuario.
