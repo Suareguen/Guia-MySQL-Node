@@ -128,6 +128,8 @@ Debería aparecernos una pantalla tal que así:
 ![image](https://github.com/Suareguen/Guia-MySQL-Node/assets/103899316/4a709df2-499b-4870-b083-6631cfbc8f54)
 
 Una vez dentro de mysql en nuestra terminal ponemos:
+
+**Importante: **poner los puntos y comas al final siempre.
 ```
 CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
 ```
