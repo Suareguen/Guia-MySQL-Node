@@ -129,7 +129,7 @@ Debería aparecernos una pantalla tal que así:
 
 Una vez dentro de mysql en nuestra terminal ponemos:
 
-**Importante: **poner los puntos y comas al final siempre.
+**Importante:** poner los puntos y comas al final siempre.
 ```
 CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
 ```
