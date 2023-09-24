@@ -117,7 +117,7 @@ Para iniciar MySQL usamos el siguiente comando:
 ```
 mysql -u root -p
 ```
-**Nota:** la contraseña debería ser "root" si es la primera vez que lo instalas.
+**NOTA =>** la contraseña debería ser "root" si es la primera vez que lo instalas.
 En caso de que no funcione usar el siguiente comando: 
 ```
 sudo mysql
@@ -129,7 +129,7 @@ Debería aparecernos una pantalla tal que así:
 
 
 
-**NOTA:**
+**NOTA =>**
 Si al instalarlo no nos pide estabecer contraseña ni usuario creamos un nuevo usuario, establecemos su contraseña y le damos todos los privilegios a dicho usuario de la siguiente manera una vez estemos en la ventana anterior.
 
 Una vez dentro de mysql en nuestra terminal ponemos:
