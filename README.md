@@ -142,6 +142,6 @@ CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON *.* TO 'user'@'localhost';
 ```
 
-Sustituir donde tenemos "user" por el usuario que queremos crear y en "password" ponemos la contraseña que queremos estabñecer.
+Sustituir donde tenemos "user" por el usuario que queremos crear y en "password" ponemos la contraseña que queremos establecer.
 
 
