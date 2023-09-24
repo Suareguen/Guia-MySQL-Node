@@ -112,12 +112,12 @@ mysql  Ver 8.0.28-0ubuntu0.20.04.1 for macos11.6 on x86_64 (AMD64)
 
 ### Inicialización
 
-para iniciar MySQL usamos el siguiente comando: 
+Para iniciar MySQL usamos el siguiente comando: 
 
 ```
 mysql -u root -p
 ```
-
+**Nota: ** la contraseña debería ser "root" si es la primera vez que lo instalas.
 En caso de que no funcione usar el siguiente comando: 
 ```
 sudo mysql
