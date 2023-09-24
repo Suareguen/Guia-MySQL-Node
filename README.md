@@ -1,13 +1,9 @@
 # Guia-MySQL-Node
 **Índice**   
-1. [Primer apartado](#id1)
+1. [nstalación NodeJS](#id1)
 2. [Segundo apartado](#id2)
-## Primer apartado<a name="id1"></a>
-Texto del primer apartado
-## Segundo apartado<a name="id2"></a>
-Texto del segundo apartado
 
-## Instalación NodeJSs
+## Instalación NodeJS<a name="id1"></a>
 
 Antes que nada por medio del siguiente comando buscamos si tenemos curl instalado:
 
