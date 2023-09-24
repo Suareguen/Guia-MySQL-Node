@@ -1,9 +1,6 @@
 # Guia-MySQL-Node
-**Índice**   
-1. [nstalación NodeJS](#id1)
-2. [Segundo apartado](#id2)
 
-## Instalación NodeJS<a name="id1"></a>
+## Instalación NodeJS
 
 Antes que nada por medio del siguiente comando buscamos si tenemos curl instalado:
 
@@ -113,7 +110,7 @@ mysql  Ver 8.0.28-0ubuntu0.20.04.1 for macos11.6 on x86_64 (AMD64)
 ```
 
 
-### Inicialización
+## Inicialización
 
 Para iniciar MySQL usamos el siguiente comando: 
 
