@@ -124,6 +124,7 @@ sudo mysql
 ```
 
 Debería aparecernos una pantalla tal que así: 
+
 ![image](https://github.com/Suareguen/Guia-MySQL-Node/assets/103899316/4a709df2-499b-4870-b083-6631cfbc8f54)
 
 
