@@ -4,7 +4,7 @@
 
 
 - [Instalación Node JS](#Instalación-NodeJS)
-  - [Ubuntu](#Instalación-NodeJS)
+  - [Curl](#Curl)
 
   
 - [Instalación MySQL](#Instalación-MySQL)
@@ -13,6 +13,8 @@
 ## Instalación NodeJS
 
 Antes que nada por medio del siguiente comando buscamos si tenemos curl instalado:
+
+### Curl
 
 ```bash
 curl --version
@@ -34,7 +36,7 @@ sudo apt-get install curl
 ```bash
 sudo apt-get install curl
 ```
-
+### NVM - Node Version Manager
 Una vez instalado pasamos a instalar NVM (Node Version Manager) por medio del siguiente comando:
 
 ```bash
@@ -49,6 +51,8 @@ Si nos da problemas con los certificados usamos el siguiente comando:
 ```bash
 curl -k -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 ``` 
+
+### Node JS
 
 Ahora pasamos a instalar Node de la siguiente manera: 
 
