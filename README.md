@@ -195,7 +195,7 @@ En caso de que a través de Table Plus no podamos conectarnos y estemos usando W
 
 Nos debería mostrar algo así: 
 
-![image]([https://github.com/Suareguen/Guia-MySQL-Node/assets/103899316/4a709df2-499b-4870-b083-6631cfbc8f54](https://cdn.discordapp.com/attachments/1083781138411171910/1149647496977588284/image.png?ex=660fcdaa&is=65fd58aa&hm=7e7e6cfb156a69c0a00fe14732b844d69f9f770e8635835b02cb5af5c88d8ead&)https://cdn.discordapp.com/attachments/1083781138411171910/1149647496977588284/image.png?ex=660fcdaa&is=65fd58aa&hm=7e7e6cfb156a69c0a00fe14732b844d69f9f770e8635835b02cb5af5c88d8ead&)
+![image]([[https://github.com/Suareguen/Guia-MySQL-Node/image))
 Una vez que la tenemos en Table Plus en donde indicamos la dirección IP que estamos usando especficamos el valor dado por el comando anterior ```iconfig``` y hacemos la conexión de esta manera.
 
 Accedemos desde TablePlus, introduciendo el usuario creado y la IP indicada con ifconfig.
