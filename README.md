@@ -197,7 +197,8 @@ En caso de que a través de Table Plus no podamos conectarnos y estemos usando W
 
 Nos debería mostrar algo así: 
 
-![image](https:/github.com/Suareguen/Guia-MySQL-Node/image.png)
+![image]([https:/github.com/Suareguen/Guia-MySQL-Node/image.png](https://github.com/Suareguen/Guia-MySQL-Node/blob/main/image.png?raw=true))
+
 Una vez que la tenemos en Table Plus en donde indicamos la dirección IP que estamos usando especficamos el valor dado por el comando anterior ```iconfig``` y hacemos la conexión de esta manera.
 
 Accedemos desde TablePlus, introduciendo el usuario creado y la IP indicada con ifconfig.
