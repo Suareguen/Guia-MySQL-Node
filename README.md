@@ -6,7 +6,7 @@
 - [Instalación Node JS](#Instalación-NodeJS)
   - [Curl](#Curl)
   - [NVM - Node Version Manager](#NVM)
-  - [Node JS](#Node JS)
+  - [Node JS](#Node-JS)
 
   
 - [Instalación MySQL](#Instalación-MySQL)
