@@ -197,7 +197,7 @@ En caso de que a través de Table Plus no podamos conectarnos y estemos usando W
 
 Nos debería mostrar algo así: 
 
-![image](https://github.com/Suareguen/Guia-MySQL-Node/image.png)
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
 Una vez que la tenemos en Table Plus en donde indicamos la dirección IP que estamos usando especficamos el valor dado por el comando anterior ```iconfig``` y hacemos la conexión de esta manera.
 
 Accedemos desde TablePlus, introduciendo el usuario creado y la IP indicada con ifconfig.
