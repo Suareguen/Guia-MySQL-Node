@@ -5,6 +5,8 @@
 
 - [Instalación Node JS](#Instalación-NodeJS)
   - [Curl](#Curl)
+  - [NVM - Node Version Manager](#NVM)
+  - [Node JS](#Node JS)
 
   
 - [Instalación MySQL](#Instalación-MySQL)
@@ -36,7 +38,7 @@ sudo apt-get install curl
 ```bash
 sudo apt-get install curl
 ```
-### NVM - Node Version Manager
+### NVM
 Una vez instalado pasamos a instalar NVM (Node Version Manager) por medio del siguiente comando:
 
 ```bash
