@@ -114,7 +114,7 @@ sudo systemctl stop mysql
 
 ### MacOS
 
-**NOTA:** Tenemos dos opciones: descargar e instalar MySQL directamente desde la página oficial o por medio de la terminal.
+Tenemos dos opciones: descargar e instalar MySQL directamente desde la página oficial o por medio de la terminal.
 
 Para descargarlo por medio de la página seguir el siguiente enlace y las instrucciones de instalación.
 
