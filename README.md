@@ -194,7 +194,9 @@ Sustituir donde tenemos "user" por el usuario que queremos crear y en "password"
 En caso de que a través de Table Plus no podamos conectarnos y estemos usando Windows Subsystem Linux, buscaremos por medio del comando ```iconfig``` para buscar la IP en la que está trabajando WSL.
 
 Nos debería mostrar algo así: 
-
+<div align="center">
+  <img src="https://github.com/Suareguen/Guia-MySQL-Node/image.png" alt="Logo Reboot">
+</div>
 ![image](https://github.com/Suareguen/Guia-MySQL-Node/image)
 Una vez que la tenemos en Table Plus en donde indicamos la dirección IP que estamos usando especficamos el valor dado por el comando anterior ```iconfig``` y hacemos la conexión de esta manera.
 
