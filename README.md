@@ -203,6 +203,8 @@ Una vez que la tenemos en Table Plus en donde indicamos la dirección IP que est
 
 Accedemos desde TablePlus, introduciendo el usuario creado y la IP indicada con ifconfig.
 
-![image]((https://github.com/Suareguen/Guia-MySQL-Node/blob/main/tableplus.JPG?raw=true)https://github.com/Suareguen/Guia-MySQL-Node/blob/main/tableplus.JPG?raw=true)
+![image](https://github.com/Suareguen/Guia-MySQL-Node/blob/main/tableplus.JPG?raw=true)
+
+
 
 
