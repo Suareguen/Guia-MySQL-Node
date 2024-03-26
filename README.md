@@ -53,7 +53,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 ```
 
 
-**NOTA:** en Linux, después de ejecutar el script de instalación, si recibes el error nvm: command not found o no ves ninguna respuesta de tu terminal después de escribir command -v nvm, simplemente cierra tu terminal actual, abre una nueva terminal y prueba a verificar de nuevo.
+**NOTA:** en Linux, después de ejecutar el script de instalación, si recibes el error ```nvm: command not found``` o no ves ninguna respuesta de tu terminal después de escribir command -v nvm, simplemente cierra tu terminal actual, abre una nueva terminal y prueba a verificar de nuevo.
 
 Si nos da problemas con los certificados usamos el siguiente comando: 
 
