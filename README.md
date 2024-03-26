@@ -13,12 +13,17 @@
   - [Ubuntu](#Ubuntu)
   - [MacOS](#MacOS)
 - [Inicialización MySQL](#Inicialización)
+- [Problemas con Windows Subsystem Linux](#)
 
 ## Instalación NodeJS
 
-Antes que nada por medio del siguiente comando buscamos si tenemos curl instalado:
+**NOTA:** Las instalaciones en Windows serían en Windows Subsystem Linux (WSL) así que las haremos en dicha terminal desde windows.
+
+Antes que nada vamos a ver si tenemos lo necesario para empezar la instalación.
 
 ### Curl
+
+Comprobamos la version de ```curl``` introduciendo en la terminal el siguiente comando:
 
 ```bash
 curl --version
@@ -148,12 +153,12 @@ mysql  Ver 8.0.28-0ubuntu0.20.04.1 for macos11.6 on x86_64 (AMD64)
 
 ## Inicialización
 
-Para iniciar MySQL usamos el siguiente comando: 
+Para iniciar MySQL desde la terminal, ya sea la de MacOs, Ubunto o WSL (en Windows) introducimos el siguiente comando: 
 
 ```
 mysql -u root -p
 ```
-**NOTA =>** la contraseña debería ser "root" si es la primera vez que lo instalas.
+**NOTA: ** la contraseña debería ser "root" si es la primera vez que lo instalas.
 En caso de que no funcione usar el siguiente comando: 
 ```
 sudo mysql
@@ -165,8 +170,7 @@ Debería aparecernos una pantalla tal que así:
 
 
 
-**NOTA =>**
-Si al instalarlo no nos pide estabecer contraseña ni usuario creamos un nuevo usuario, establecemos su contraseña y le damos todos los privilegios a dicho usuario de la siguiente manera una vez estemos en la ventana anterior.
+**NOTA:** Si al instalarlo no nos pide estabecer contraseña ni usuario creamos un nuevo usuario, establecemos su contraseña y le damos todos los privilegios a dicho usuario de la siguiente manera una vez estemos en la ventana anterior.
 
 Una vez dentro de mysql en nuestra terminal ponemos:
 
@@ -176,6 +180,10 @@ CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
 ```
 ```
 GRANT ALL PRIVILEGES ON *.* TO 'user'@'localhost';
+```
+
+```
+FLUSH PRIVILEGES;
 ```
 
 Sustituir donde tenemos "user" por el usuario que queremos crear y en "password" ponemos la contraseña que queremos establecer.
