@@ -1,5 +1,12 @@
 # Guia-MySQL-Node
 
+## **Index** 
+
+
+- [Instalación Node JS](#Instalación-NodeJS)
+- [Instalación MySQL](#Instalación-MySQL)
+- [Inicialización MySQL](#Inicialización)
+
 ## Instalación NodeJS
 
 Antes que nada por medio del siguiente comando buscamos si tenemos curl instalado:
@@ -7,7 +14,6 @@ Antes que nada por medio del siguiente comando buscamos si tenemos curl instalad
 ```bash
 curl --version
 ```
-
 
 En caso de no tenerlo lo instalamos con el siguiente comando: 
 - En MacOS:
@@ -21,7 +27,7 @@ brew install curl
 sudo apt-get install curl
 ```
 
-- En windows:
+- En windows, desde la terminal Windows Subsystem Linux:
 ```bash
 sudo apt-get install curl
 ```
@@ -31,6 +37,9 @@ Una vez instalado pasamos a instalar NVM (Node Version Manager) por medio del si
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 ```
+
+
+**NOTA: **en Linux, después de ejecutar el script de instalación, si recibes el error nvm: command not found o no ves ninguna respuesta de tu terminal después de escribir command -v nvm, simplemente cierra tu terminal actual, abre una nueva terminal y prueba a verificar de nuevo.
 
 Si nos da problemas con los certificados usamos el siguiente comando: 
 
@@ -43,11 +52,14 @@ Ahora pasamos a instalar Node de la siguiente manera:
 ```bash
 nvm install --lts
 ```
+
 Para instalar la versión LTS o en caso de querer instalar una versión concreta sería con el siguient comando:
 
 ```bash
 nvm install <version de node>
 ```
+
+**NOTA:** sustituimos <version de node> por la versión de node que vayamos a instalar.
 
 ## Instalación MySQL
 
@@ -63,6 +75,13 @@ Instala el paquete de MySQL:
 ```bash
 sudo apt install mysql-server
 ```
+Link de la documentación: https://ubuntu.com/server/docs/databases-mys
+
+Con este comando pueden ver el estado del servicio: 
+
+```bash
+sudo systemctl status mysql
+```
 
 Inicia el servicio de MySQL:
 
@@ -70,17 +89,23 @@ Inicia el servicio de MySQL:
 sudo systemctl start mysql
 ```
 
+Para apagar el servicio de MySQL:
+
+```bash
+sudo systemctl stop mysql
+```
+
 
 ### MacOS
 
-**Note:** Tenemos dos opciones: descargar e instalar MySQL directamente desde la página oficial o por medio de la terminal.
+**NOTA:** Tenemos dos opciones: descargar e instalar MySQL directamente desde la página oficial o por medio de la terminal.
 
 Para descargarlo por medio de la página seguir el siguiente enlace y las instrucciones de instalación.
 
 ```
 https://dev.mysql.com/downloads/mysql/
 ```
-Por medio de la terminal de la siguiente manera: 
+En cambio si quieres instalarlo por medio de la terminal lo haríamos de la siguiente manera: 
 
 - Abre una terminal y actualiza el índice de paquetes:
 ```bash
