@@ -203,6 +203,6 @@ Una vez que la tenemos en Table Plus en donde indicamos la dirección IP que est
 
 Accedemos desde TablePlus, introduciendo el usuario creado y la IP indicada con ifconfig.
 
-![image]([https://github.com/Suareguen/Guia-MySQL-Node/assets/103899316/4a709df2-499b-4870-b083-6631cfbc8f54](https://cdn.discordapp.com/attachments/1083781138411171910/1149647497233444905/tableplus.JPG?ex=660fcdaa&is=65fd58aa&hm=e54368293a9b83237fb8dd9df57a9988c16e8803d7e119578f48f1f3acb1450e&)https://cdn.discordapp.com/attachments/1083781138411171910/1149647497233444905/tableplus.JPG?ex=660fcdaa&is=65fd58aa&hm=e54368293a9b83237fb8dd9df57a9988c16e8803d7e119578f48f1f3acb1450e&)
+![image]((https://github.com/Suareguen/Guia-MySQL-Node/blob/main/tableplus.JPG?raw=true)https://github.com/Suareguen/Guia-MySQL-Node/blob/main/tableplus.JPG?raw=true)
 
 
