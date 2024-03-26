@@ -10,6 +10,8 @@
 
   
 - [Instalación MySQL](#Instalación-MySQL)
+  - [Ubuntu](#Ubuntu)
+  - [MacOS](#MacOS)
 - [Inicialización MySQL](#Inicialización)
 
 ## Instalación NodeJS
